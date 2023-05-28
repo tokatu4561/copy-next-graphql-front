@@ -38,5 +38,3 @@ next-env.d.ts
 # optional
 .idea/
 .env
-
-.yarn
