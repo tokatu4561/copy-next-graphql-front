@@ -1,5 +1,5 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:ap-northeast-1:00000000000:task-definition/front-dev-task-definition:1",
+    "taskDefinitionArn": "arn:aws:ecs:ap-northeast-1:832439136995:task-definition/front-dev-task-definition:1",
     "containerDefinitions": [
         {
             "name": "front-container",
@@ -29,7 +29,7 @@
             "secrets": [
                 {
                     "name": "NEXT_PUBLIC_API_URL",
-                    "valueFrom": "arn:aws:ssm:ap-northeast-1:00000000000:parameter/NEXT_PUBLIC_API_URL"
+                    "valueFrom": "arn:aws:ssm:ap-northeast-1:832439136995:parameter/NEXT_PUBLIC_API_URL"
                 }
             ],
             "readonlyRootFilesystem": false,
@@ -52,9 +52,9 @@
         }
     ],
     "family": "front-dev-task-definition",
-    "executionRoleArn": "arn:aws:iam::00000000000:role/front-dev-task-execution-role",
+    "executionRoleArn": "arn:aws:iam::832439136995:role/front-dev-task-execution-role",
     "networkMode": "awsvpc",
-    "revision": 7,
+    "revision": 1,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -105,8 +105,8 @@
     ],
     "cpu": "256",
     "memory": "512",
-    "registeredAt": "2023-05-02T10:45:49.718Z",
-    "registeredBy": "arn:aws:iam::00000000000:user/admin-user",
+    "registeredAt": "2023-06-10T03:41:15.951Z",
+    "registeredBy": "arn:aws:iam::832439136995:user/go-nextjs-ecs-demo",
     "tags": [
         {
             "key": "Environment",
